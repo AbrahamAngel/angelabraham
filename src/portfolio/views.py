@@ -23,7 +23,7 @@ PROJECTS = {
         "title": "Event Registration Management System",
         "category": "Web Application",
         "tech_stack": "Django, Django ORM, MySQL/PostgreSQL",
-        "image": "img/portfolio/eventreg.jpg",
+        "image": "img/portfolio/crob.png",
         "github_url": "https://github.com/AbrahamAngel/event-registration",
         "summary": "A web-based event registration platform enabling streamlined management of 7 technical events and supporting 50+ team registrations through a centralized system.",
         "highlights": [
