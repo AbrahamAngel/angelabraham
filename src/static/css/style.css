@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  font-size: 16.5px;
 }
 
 a {
@@ -310,6 +311,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 17px;
 }
 
 /*--------------------------------------------------------------
@@ -338,6 +340,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+#about .section-title p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #272829;
 }
 
 /*--------------------------------------------------------------
@@ -391,7 +399,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -407,6 +415,7 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
+  font-size: 15px;
 }
 
 .skills .progress .skill .val {
@@ -462,12 +471,19 @@ section {
   margin-bottom: 10px;
 }
 
+.resume .resume-item p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .resume .resume-item:last-child {
@@ -584,6 +600,14 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+.portfolio-caption h5 {
+  font-size: 17px;
+}
+
+.portfolio-caption p {
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -772,7 +796,7 @@ section {
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 15px;
   color: #173b6c;
 }
 
@@ -1030,6 +1054,14 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.portfolio-details .portfolio-description ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 8px;
 }
 
 @media (max-width: 768px) {
