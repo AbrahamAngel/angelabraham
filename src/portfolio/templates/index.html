@@ -56,6 +56,7 @@
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#highlights"><i class="bx bx-images"></i> <span>Highlights</span></a></li>
           <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -69,40 +70,49 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Angel Abraham</h1>
-<p>I'm <span class="typed" data-typed-items="a Full-Stack Django Developer, an AI-Driven Application Builder"></span></p>      <button type="button" class="btn btn-dark"><a href="#about"><i class="bx bx-user"></i> Get to Know Me</a></button>
+      <p>I'm <span class="typed" data-typed-items="a Full-Stack Django Developer, an AI-Driven Application Builder"></span></p>
+      <button type="button" class="btn btn-dark"><a href="#about"><i class="bx bx-user"></i> Get to Know Me</a></button>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
-<!-- ======= About Section ======= -->
+    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
         <div class="section-title">
           <h2>My Story</h2>
           <p align="justify">
             I'm a final-year B.Tech student in Electrical and Computer Engineering at TKM College of Engineering
-            (2023&ndash;2027, APJ Abdul Kalam Technological University), with a CGPA of 9.66. My focus is backend
-            development with Python and Django, including designing RESTful APIs and building database-driven
-            applications with MySQL and PostgreSQL.
+            (2023&ndash;2027, APJ Abdul Kalam Technological University), with a CGPA of 9.66. I'm a full-stack
+            developer working primarily with Python and Django, designing RESTful APIs and building
+            database-driven applications with MySQL and PostgreSQL.
+          </p>
+          <p align="justify">
+            My involvement with technical teams on campus shaped a lot of how I work today. I started as a member
+            of the web team at the Centre for Robotics (C-ROB), TKMCE, and was elected Vice Chairperson the
+            following year, an experience that pushed me to think beyond just writing code, toward
+            coordinating people and driving technical initiatives forward. I also served as Tech Head at ISTE
+            TKMCE, where I took on responsibility for the technical direction of student initiatives.
           </p>
           <p align="justify">
             I work regularly with Docker, Git, Jira, and Django REST Framework across development and deployment
             workflows, and have experience with FastAPI. On one of my projects, I applied speech recognition and
-            NLP techniques to build an AI-powered transcription system. I'm looking to build further depth in AI
-            and machine learning as the next step in my development.
+            NLP techniques to build an AI-powered transcription system. My goal is to grow into a strong Software
+            Development Engineer role, and build toward AI-driven full-stack development as the next stage of
+            my journey.
           </p>
           <p align="justify">
             I currently work as a Software Developer Intern at Medsquare Healthcare Technologies LLP, contributing
-            to MediAssist, a multi-tenant SaaS hospital management platform &mdash; involved in feature development,
-            sprint tracking on Jira, and code review.
+            to Clinic24, a multi-tenant SaaS hospital management platform, involved in feature
+            development, sprint tracking on Jira, and code review.
           </p>
         </div>
       </div>
     </section>
     <!-- End About Section -->
 
-<!-- ======= Skills Section ======= -->
+    <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container">
         <div class="section-title">
@@ -167,7 +177,7 @@
     </section>
     <!-- End Skills Section -->
 
-<!-- ======= Resume Section ======= -->
+    <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
         <div class="section-title">
@@ -206,6 +216,16 @@
               <h5>Simplilearn &middot; 2023</h5>
               <p>Comprehensive training covering AI, ML, and Deep Learning, with practical exposure to neural networks and model training.</p>
             </div>
+
+            <h3 class="resume-title">Leadership &amp; Extracurricular</h3>
+            <div class="resume-item">
+              <h4>Vice Chairperson &mdash; Centre for Robotics (C-ROB), TKMCE</h4>
+              <p>Elected Vice Chairperson after starting as a member of the web team, leading technical initiatives and coordinating team activities.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Tech Head &mdash; ISTE TKMCE</h4>
+              <p>Served as Senior Executive Committee member (Tech Head), responsible for the technical direction of student initiatives.</p>
+            </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
@@ -213,7 +233,7 @@
               <h4>Software Developer Intern &mdash; Medsquare Healthcare Technologies LLP</h4>
               <h5>Ongoing</h5>
               <p>
-                Contributing to <strong>MediAssist</strong>, a production-grade multi-tenant SaaS hospital
+                Contributing to <strong>Clinic24</strong>, a production-grade multi-tenant SaaS hospital
                 management platform built with Django and PostgreSQL, using schema-per-tenant architecture
                 (django-tenants). Involved in feature development, code review, and sprint planning and
                 task tracking using Jira.
@@ -260,47 +280,34 @@
           <p>Selected projects</p>
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="{% static 'img/portfolio/voice.png' %}" class="img-fluid" alt="VoiceAssist">
-              <div class="portfolio-links">
-                <a href="{% static 'img/portfolio/voiceassist.jpg' %}" data-gall="portfolioGallery" class="venobox" title="VoiceAssist"><i class="bx bx-plus"></i></a>
-                <a href="{% url 'portfolio_details' 'voiceassist' %}" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+<!--             <a href="{% url 'portfolio_details' 'voiceassist' %}" class="portfolio-wrap">
+ -->              <img src="{% static 'img/portfolio/voice.png' %}" class="img-fluid" alt="VoiceAssist">
               <div class="portfolio-caption text-center mt-2"><h5>VoiceAssist</h5><p>Medical speech transcription for hearing-impaired patients</p></div>
-            </div>
+            </a>
           </div>
 
+<!--           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="{% url 'portfolio_details' 'mediassist' %}" class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/clinic24.png' %}" class="img-fluid" alt="Clinic24">
+              <div class="portfolio-caption text-center mt-2"><h5>Clinic24</h5><p>Multi-tenant SaaS hospital management platform &mdash; Medsquare Healthcare Technologies LLP</p></div>
+            </a>
+          </div> -->
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="{% static 'img/portfolio/crob.png' %}" class="img-fluid" alt="Event Registration Management System">
-              <div class="portfolio-links">
-                <a href="{% static 'img/portfolio/crob.png' %}" data-gall="portfolioGallery" class="venobox" title="Event Registration System"><i class="bx bx-plus"></i></a>
-                <a href="{% url 'portfolio_details' 'event-registration' %}" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+<!--             <a href="{% url 'portfolio_details' 'event-registration' %}" class="portfolio-wrap">
+ -->              <img src="{% static 'img/portfolio/crob.png' %}" class="img-fluid" alt="Event Registration Management System">
               <div class="portfolio-caption text-center mt-2"><h5>Event Registration System</h5><p>Django platform managing 7 events, 50+ team registrations</p></div>
-            </div>
+            </a>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="{% static 'img/portfolio/blog.jpg' %}" class="img-fluid" alt="Blogging Platform">
-              <div class="portfolio-links">
-                <a href="{% static 'img/portfolio/blog.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Blogging Platform"><i class="bx bx-plus"></i></a>
-                <a href="{% url 'portfolio_details' 'blogging-platform' %}" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+<!--             <a href="{% url 'portfolio_details' 'blogging-platform' %}" class="portfolio-wrap">
+ -->              <img src="{% static 'img/portfolio/blog.jpg' %}" class="img-fluid" alt="Blogging Platform">
               <div class="portfolio-caption text-center mt-2"><h5>Blogging Platform</h5><p>Full-stack Django blog with threaded comments</p></div>
-            </div>
+            </a>
           </div>
 
         </div>
@@ -309,7 +316,68 @@
     </section>
     <!-- End Portfolio Section -->
 
-<!-- ======= Services Section ======= -->
+    <!-- ======= Highlights Section ======= -->
+    <section id="highlights" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Highlights</h2>
+          <p>Moments from talks, hackathons, and community involvement</p>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+<!-- 
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/highlights/speaking-1.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/highlights/speaking-1.jpg' %}" class="img-fluid" alt="Presenting at a technical seminar">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>Technical Seminar</h5><p>Presenting on RL-based satellite attitude control</p></div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/portfolio/present.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/portfolio/present.jpg' %}" class="img-fluid" alt="Explaining VoiceAssist project poster">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>VoiceAssist Presentation</h5><p>Walking through project results at a department showcase</p></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/portfolio/robo.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/portfolio/robo.jpg' %}" class="img-fluid" alt="C-ROB Robocon 2026 team">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>TKMCE Robocon '26</h5><p>With the Centre for Robotics team</p></div>
+            </div>
+          </div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/portfolio/org.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/portfolio/org.jpg' %}" class="img-fluid" alt="Organizing a technical event with C-ROB TKMCE">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>Organizing a Technical Event</h5><p>Coordinating a C-ROB TKMCE technical event as part of the executive committee</p></div>
+            </div>
+          </div>
+
+<!--           <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/highlights/crob-cert.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/highlights/crob-cert.jpg' %}" class="img-fluid" alt="C-ROB Web Team certificate">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>Certificate of Excellence</h5><p>Web Team, C-ROB TKMCE &mdash; Executive Committee 2024&ndash;25</p></div>
+            </div>
+          </div> -->
+
+          <!-- Add more participation certificates here using the same block pattern -->
+
+        </div>
+      </div>
+    </section>
+    <!-- End Highlights Section -->
+
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
         <div class="section-title">
