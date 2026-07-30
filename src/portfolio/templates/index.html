@@ -1,0 +1,476 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Angel Abraham | Full-Stack Developer</title>
+  <meta content="Angel Abraham - Full-stack developer specializing in Python, Django, and REST API development." name="description">
+  <meta content="Angel Abraham, Django developer, Python developer, full-stack developer, REST API, portfolio" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/venobox/venobox.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="{% static 'img/profile-img.jpg' %}" alt="Angel Abraham" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="{% url 'index' %}">Angel Abraham</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/AbrahamAngel" target="_blank" class="github" title="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/angel-abraham" target="_blank" class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          <a href="mailto:angelabrahamhanna@gmail.com" class="email" title="Email"><i class="bx bx-envelope"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#highlights"><i class="bx bx-images"></i> <span>Highlights</span></a></li>
+          <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Angel Abraham</h1>
+      <p>I'm <span class="typed" data-typed-items="a Full-Stack Django Developer, an AI-Driven Application Builder"></span></p>
+      <button type="button" class="btn btn-dark"><a href="#about"><i class="bx bx-user"></i> Get to Know Me</a></button>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Story</h2>
+          <p align="justify">
+            I'm a final-year B.Tech student in Electrical and Computer Engineering at TKM College of Engineering
+            (2023&ndash;2027, APJ Abdul Kalam Technological University), with a CGPA of 9.66. I'm a full-stack
+            developer working primarily with Python and Django, designing RESTful APIs and building
+            database-driven applications with MySQL and PostgreSQL.
+          </p>
+          <p align="justify">
+            My involvement with technical teams on campus shaped a lot of how I work today. I started as a member
+            of the web team at the Centre for Robotics (C-ROB), TKMCE, and was elected Vice Chairperson the
+            following year, an experience that pushed me to think beyond just writing code, toward
+            coordinating people and driving technical initiatives forward. I also served as Tech Head at ISTE
+            TKMCE, where I took on responsibility for the technical direction of student initiatives.
+          </p>
+          <p align="justify">
+            I work regularly with Docker, Git, Jira, and Django REST Framework across development and deployment
+            workflows, and have experience with FastAPI. On one of my projects, I applied speech recognition and
+            NLP techniques to build an AI-powered transcription system. My goal is to grow into a strong Software
+            Development Engineer role, and build toward AI-driven full-stack development as the next stage of
+            my journey.
+          </p>
+          <p align="justify">
+            I currently work as a Software Developer Intern at Medsquare Healthcare Technologies LLP, contributing
+            to Clinic24, a multi-tenant SaaS hospital management platform, involved in feature
+            development, sprint tracking on Jira, and code review.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Backend-focused full-stack developer, building toward strong systems and product engineering fundamentals.</p>
+        </div>
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="progress">
+              <span class="skill">Python <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Django &amp; Django REST Framework <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Databases: MySQL &amp; PostgreSQL <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Docker, Git &amp; Jira <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="progress">
+              <span class="skill">FastAPI <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Data Analysis: NumPy &amp; Pandas <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Data Structures &amp; Algorithms <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Speech Recognition &amp; NLP <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Personal Details</h3>
+            <div class="resume-item pb-0">
+              <h4>Angel Abraham</h4>
+              <ul>
+                <li>Kerala, India</li>
+                <li>angelabrahamhanna@gmail.com</li>
+                <li>+91 7907917386</li>
+              </ul>
+            </div>
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology &mdash; Electrical and Computer Engineering</h4>
+              <h5>2023 &ndash; 2027</h5>
+              <p>TKM College of Engineering, APJ Abdul Kalam Technological University, Kerala &mdash; CGPA: 9.66</p>
+            </div>
+            <h3 class="resume-title">Certifications</h3>
+            <div class="resume-item">
+              <h4>Deploy a Django App using Docker</h4>
+              <h5>Cognitive Class (IBM) &middot; 2025</h5>
+              <p>Hands-on training containerizing Django applications: building Docker images, managing containers, and deploying containerized web services.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Python for Data Science</h4>
+              <h5>NPTEL, IIT Madras &middot; 2024</h5>
+              <p>MOOC focused on Python-based data analysis with NumPy, pandas, data visualization, and statistical analysis.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Artificial Intelligence, Machine Learning and Deep Learning</h4>
+              <h5>Simplilearn &middot; 2023</h5>
+              <p>Comprehensive training covering AI, ML, and Deep Learning, with practical exposure to neural networks and model training.</p>
+            </div>
+
+            <h3 class="resume-title">Leadership &amp; Extracurricular</h3>
+            <div class="resume-item">
+              <h4>Vice Chairperson &mdash; Centre for Robotics (C-ROB), TKMCE</h4>
+              <p>Elected Vice Chairperson after starting as a member of the web team, leading technical initiatives and coordinating team activities.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Tech Head &mdash; ISTE TKMCE</h4>
+              <p>Served as Senior Executive Committee member (Tech Head), responsible for the technical direction of student initiatives.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Developer Intern &mdash; Medsquare Healthcare Technologies LLP</h4>
+              <h5>Ongoing</h5>
+              <p>
+                Contributing to <strong>Clinic24</strong>, a production-grade multi-tenant SaaS hospital
+                management platform built with Django and PostgreSQL, using schema-per-tenant architecture
+                (django-tenants). Involved in feature development, code review, and sprint planning and
+                task tracking using Jira.
+              </p>
+            </div>
+
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>VoiceAssist &mdash; Medical Speech Transcription System</h4>
+              <p>AI-powered speech-to-text system for hearing-impaired patients, using OpenAI Whisper, FFmpeg, and a custom NLP layer to simplify medical terminology and flag emergency-related instructions.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Event Registration Management System</h4>
+              <p>Django platform managing 7 technical events and 50+ team registrations, with secure authentication, duplicate-registration validation, and an admin dashboard with Excel export.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Blogging Platform</h4>
+              <p>Full-stack Django blog with Django ORM/SQLite data modeling, threaded comments, and title-based search.</p>
+            </div>
+
+            <h3 class="resume-title">Achievements</h3>
+            <div class="resume-item">
+              <h4>3rd Prize &mdash; Code the Cloud (CCD Edition) National Hackathon</h4>
+              <h5>GDG Cloud Mumbai &amp; GDG on Campus</h5>
+              <p>Built <strong>GeneTrust</strong>, an AI-powered solution using the Gemini API that interprets complex medical and genomic reports into simplified, personalized health insights, as part of a two-member team.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Technical Seminar: RL-Based Satellite Attitude Control</h4>
+              <h5>Dept. of EEE, TKM College of Engineering</h5>
+              <p>Presented how reinforcement learning and data-driven control approaches apply to satellite orientation systems under uncertain dynamics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Selected projects</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+<!--             <a href="{% url 'portfolio_details' 'voiceassist' %}" class="portfolio-wrap">
+ -->              <img src="{% static 'img/portfolio/voice.png' %}" class="img-fluid" alt="VoiceAssist">
+              <div class="portfolio-caption text-center mt-2"><h5>VoiceAssist</h5><p>Medical speech transcription for hearing-impaired patients</p></div>
+            </a>
+          </div>
+
+<!--           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="{% url 'portfolio_details' 'mediassist' %}" class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/clinic24.png' %}" class="img-fluid" alt="Clinic24">
+              <div class="portfolio-caption text-center mt-2"><h5>Clinic24</h5><p>Multi-tenant SaaS hospital management platform &mdash; Medsquare Healthcare Technologies LLP</p></div>
+            </a>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+<!--             <a href="{% url 'portfolio_details' 'event-registration' %}" class="portfolio-wrap">
+ -->              <img src="{% static 'img/portfolio/crob.png' %}" class="img-fluid" alt="Event Registration Management System">
+              <div class="portfolio-caption text-center mt-2"><h5>Event Registration System</h5><p>Django platform managing 7 events, 50+ team registrations</p></div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+<!--             <a href="{% url 'portfolio_details' 'blogging-platform' %}" class="portfolio-wrap">
+ -->              <img src="{% static 'img/portfolio/blog.jpg' %}" class="img-fluid" alt="Blogging Platform">
+              <div class="portfolio-caption text-center mt-2"><h5>Blogging Platform</h5><p>Full-stack Django blog with threaded comments</p></div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Highlights Section ======= -->
+    <section id="highlights" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Highlights</h2>
+          <p>Moments from talks, hackathons, and community involvement</p>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+<!-- 
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/highlights/speaking-1.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/highlights/speaking-1.jpg' %}" class="img-fluid" alt="Presenting at a technical seminar">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>Technical Seminar</h5><p>Presenting on RL-based satellite attitude control</p></div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/portfolio/present.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/portfolio/present.jpg' %}" class="img-fluid" alt="Explaining VoiceAssist project poster">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>VoiceAssist Presentation</h5><p>Walking through project results at a department showcase</p></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/portfolio/robo.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/portfolio/robo.jpg' %}" class="img-fluid" alt="C-ROB Robocon 2026 team">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>TKMCE Robocon '26</h5><p>With the Centre for Robotics team</p></div>
+            </div>
+          </div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/portfolio/org.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/portfolio/org.jpg' %}" class="img-fluid" alt="Organizing a technical event with C-ROB TKMCE">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>Organizing a Technical Event</h5><p>Coordinating a C-ROB TKMCE technical event as part of the executive committee</p></div>
+            </div>
+          </div>
+
+<!--           <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <a href="{% static 'img/highlights/crob-cert.jpg' %}" data-gall="highlightsGallery" class="venobox">
+                <img src="{% static 'img/highlights/crob-cert.jpg' %}" class="img-fluid" alt="C-ROB Web Team certificate">
+              </a>
+              <div class="portfolio-caption text-center mt-2"><h5>Certificate of Excellence</h5><p>Web Team, C-ROB TKMCE &mdash; Executive Committee 2024&ndash;25</p></div>
+            </div>
+          </div> -->
+
+          <!-- Add more participation certificates here using the same block pattern -->
+
+        </div>
+      </div>
+    </section>
+    <!-- End Highlights Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>What I Can Do For You</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="#">Web Development</a></h4>
+            <p class="description">Scalable, database-driven web applications built with Django, Django REST Framework, and PostgreSQL/MySQL.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-brand-windows"></i></div>
+            <h4 class="title"><a href="#">API Development &amp; Deployment</a></h4>
+            <p class="description">RESTful APIs designed with DRF and FastAPI, containerized with Docker for consistent, reliable deployment.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="#">AI &amp; Speech-Enabled Applications</a></h4>
+            <p class="description">Speech recognition and NLP-driven tools, from audio processing pipelines to rule-based decision logic.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+          <p>Open to software development roles, freelance projects, and collaboration &mdash; feel free to reach out.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info w-100">
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:angelabrahamhanna@gmail.com">angelabrahamhanna@gmail.com</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p><a href="tel:+917907917386">(+91) 7907917386</a></p>
+              </div>
+
+              <div class="linkedin">
+                <i class="icofont-linkedin"></i>
+                <h4>LinkedIn:</h4>
+                <p><a href="https://www.linkedin.com/in/angel-abraham" target="_blank">linkedin.com/in/angel-abraham</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Angel Abraham</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'vendor/counterup/counterup.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/venobox/venobox.min.js' %}"></script>
+  <script src="{% static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
